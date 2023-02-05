@@ -22,7 +22,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: npm install, build and test
-      working-directory: ./containers/node
+      working-directory: ../node
       run: |
         npm i
         npm i -g pm2
